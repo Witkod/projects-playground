@@ -1,0 +1,99 @@
+body {
+ 
+ background: rgb(32,19,103); 
+ background: -moz-linear-gradient(-45deg,  rgba(32,19,103,1) 0%, rgba(146,98,170,1) 100%); 
+ background: -webkit-linear-gradient(-45deg,  rgba(32,19,103,1) 0%,rgba(146,98,170,1) 100%); 
+ background: linear-gradient(135deg,  rgba(32,19,103,1) 0%,rgba(146,98,170,1) 100%); 
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#201367', endColorstr='#9262aa',GradientType=1 ); 
+ font-family: 'Source Sans Pro', sans-serif;
+ color: #fff;
+}
+
+html, body {
+ min-height: 100%;
+}
+
+
+.menu {
+ display: flex;
+ margin: 20px 40px;
+ font-size: 18px;
+}
+
+.nav {
+ display: flex;
+ list-style: none;
+ margin: 0;
+ padding: 0;
+ flex-grow: 1;
+ justify-content: center;
+}
+
+.nav li{
+	padding: 0 20px;
+}
+
+.content{
+	padding-top: 40px;
+	 display: flex;
+	 max-width: 60%;
+	margin-left: auto;
+ 	margin-right: auto;
+}
+
+.column1{
+	
+	flex-grow: 3;
+	flex-basis: 0;
+}
+
+.column2{
+	flex-grow: 2;
+	flex-basis: 0;
+	margin-right: 50px;
+}
+
+.title{
+	
+}
+
+.text{
+ color: rgba(255,255,255,.5);
+}
+
+.buttons{
+	margin-top: 50px;
+	display: flex;
+	align-items: center;
+	overflow: initial; 
+	justify-content: space-around;
+
+}
+
+.reach{
+
+	text-transform: uppercase;
+	border: 1px solid #fff;
+	border-radius: 100px;
+	text-align: center;
+	padding: 10px 15px;
+	margin-right: 10px;
+	white-space: nowrap;
+
+}
+
+.learn{
+	
+	text-transform: uppercase;	
+	margin-left: 10px;
+	border-bottom: 1px solid #fff;
+	white-space: nowrap;
+	width: auto;
+	display: block;
+}
+hr {
+    margin-left: 40px;
+    margin-right: 40px;
+    border-width: 1px;
+    color: rgba(255,255,255,.1);
+}

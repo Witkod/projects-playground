@@ -1,0 +1,92 @@
+html, body{
+	height: 100%;
+}
+
+body {
+
+ color: #fff;
+ font-family: 'Open Sans', sans-serif;
+ text-align: center;
+ margin-top: 100px;
+ background: rgb(67,47,161); / Old browsers /
+ background: -moz-linear-gradient(-45deg,  rgba(67,47,161,1) 0%, rgba(208,51,101,1) 100%); /* FF3.6-15 */
+ background: -webkit-linear-gradient(-45deg,  rgba(67,47,161,1) 0%,rgba(208,51,101,1) 100%); /* Chrome10-25,Safari5.1-6 */
+ background: linear-gradient(135deg,  rgba(67,47,161,1) 0%,rgba(208,51,101,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#432fa1', endColorstr='#d03365',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+.intro{
+	width: 50%;
+	margin: auto;/*jezeli masz miejsce po l i p to po rowno*/
+	line-height: 1.5;
+}
+.subscribe input{
+	border: 0;
+	width: 200px;
+	border-radius: 100px;
+	padding: 15px 25px; /*15 z gory i z dolu a 25 po bokach*/
+	font: inherit;
+	font-size: 13px;
+	margin: 10px;
+
+
+}
+
+.subscribe button{
+	border: 0;
+	font: inherit;
+	background-color: #FF3366;
+	border-radius: 100px;
+	text-transform: uppercase;
+	padding: 15px 25px;
+	font-size: 13px;
+	margin: 10px;
+	color: #fff;
+}
+
+.video{
+	display: inline-flex; 
+	align-items: center;
+	text-transform: uppercase;
+}
+
+.play{
+	border-radius: 500px;
+	background-color: #fff;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;/*szerokosc lini*/
+	display: flex; 
+	/*align-items: center;*/
+	justify-content: center;/*wyśrodkownie poziome*/
+	color: #000;
+	margin: 20px;
+}
+
+.underline{
+	text-decoration: underline;
+}
+
+.footer{
+	display: inline-flex;
+	align-items: right; 
+}
+
+.empty{
+	/*width: 800px;*/
+}
+
+.more button{
+	background-color: rgba(255,255,255,0.1);
+	text-decoration: bold;
+		border: 0;
+	font: inherit;
+	
+	border-radius: 100px;
+	text-transform: uppercase;
+	padding: 10px 15px;
+	font-size: 13px;
+	margin: 10px;
+	color: #fff;
+}

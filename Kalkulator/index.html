@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Kalkulator</title>
+	<meta name="description" content="Kalkulator do prostych operacji obliczeniowych"/>
+	<meta name="keywords"="kalkulator"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+	<link rel="stylesheet" type="text/css" href="style.css"/> 
+	<script type="text/javascript">
+		function dodawanie()
+		{
+			var liczba1 = Number(document.getElementById('pole11').value);
+			var liczba2 = Number(document.getElementById('pole12').value);
+			document.getElementById('wynikowe1').value = liczba1+liczba2
+			return liczba1+liczba2; //wynik dodawania
+
+		}
+
+			function odejmowanie()
+		{
+			var liczba1 = Number(document.getElementById('pole21').value);
+			var liczba2 = Number(document.getElementById('pole22').value);
+			document.getElementById('wynikowe2').value = liczba1-liczba2
+			return liczba1+liczba2; //wynik dodawania
+
+		}
+
+			function mnozenie()
+		{
+			var liczba1 = Number(document.getElementById('pole31').value);
+			var liczba2 = Number(document.getElementById('pole32').value);
+			document.getElementById('wynikowe3').value = liczba1*liczba2
+			return liczba1+liczba2; //wynik dodawania
+
+		}
+
+			function dzielenie()
+		{
+			var liczba1 = Number(document.getElementById('pole41').value);
+			var liczba2 = Number(document.getElementById('pole42').value);
+			document.getElementById('wynikowe4').value = liczba1/liczba2
+			return liczba1+liczba2; //wynik dodawania
+
+		}
+	</script>
+
+
+</head>
+<body>	
+		
+		<input type="text" id="pole11" value="">
+		+
+		<input type="text" id="pole12">
+
+		<input type="button" id="oblicz" value="=" onclick="dodawanie()">
+
+		<input type="text" id="wynikowe1" value="">
+		<br/>
+
+		<input type="text" id="pole21" value="">
+		- 
+		<input type="text" id="pole22">
+
+		<input type="button" id="oblicz" value="=" onclick="odejmowanie()">
+
+		<input type="text" id="wynikowe2" value="">
+		<br/>
+
+		<input type="text" id="pole31" value="">
+		*
+		<input type="text" id="pole32">
+
+		<input type="button" id="oblicz" value="=" onclick="mnozenie()">
+
+		<input type="text" id="wynikowe3" value="">
+		<br/>
+
+		<input type="text" id="pole41" value="">
+		/
+		<input type="text" id="pole42">
+
+		<input type="button" id="oblicz" value="=" onclick="dzielenie()">
+
+		<input type="text" id="wynikowe4" value="">
+
+	<div id="wynik1"></div>
+	<script type="text/javascript">
+		//document.getElementById("wynik1").innerHTML = oblicz();
+		;
+		
+	</script>
+
+</body>  
+</html>
