@@ -1,0 +1,77 @@
+body{
+	font-family: 'Lora', serif;
+	background-color: black;
+	color: white;
+}
+
+.border{
+	border-color: white;
+	border-style: solid;
+	border-width: 2px;
+	border-style: solid;
+}
+
+.main{
+	margin-left: 100px;
+	margin-right: 100px;
+	justify-content: center;
+}
+
+.baner{
+/*	background-image: url("baner.jpg");
+ 	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	background-attachment: fixed;*/
+	/*opacity: 0.5;*/
+	max-width: 1200px;
+	min-height: 600px;
+	position: relative;
+
+}
+
+
+.baner img{
+	width: 100%;
+	position: relative;
+	z-index: -1;
+}
+
+.menu{
+	padding-top: 30px;
+	padding-left: 300px;
+	padding-right: 50px;
+	position: absolute;
+	top: 0px;
+}
+
+.banerContent{
+	display: flex;
+	position: absolute;
+
+}
+
+
+.leftSide {
+	flex-grow: 1;
+	min-width: 200px;
+}
+.rightSide {
+	padding-top: 30px;
+	min-width: 700px;
+	display: flex;
+	flex-grow: 2;
+	
+}
+
+.navigation{
+
+	font-weight: bold;
+	letter-spacing: 2px;
+	font-size: 16px;
+	min-width: 600px;
+	justify-content: flex-end space-around;
+	list-style: none;
+	display: flex;
+
+}

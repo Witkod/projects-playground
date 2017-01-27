@@ -100,3 +100,31 @@ hr {
     border-width: 1px;
     color: rgba(255,255,255,.1);
 }
+
+.row {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.col {
+  flex-grow: 1;
+  flex-basis: 0;
+  padding: 0 15px;
+}
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 600px) {
+  .row {
+    flex-wrap: wrap;
+  }
+  
+  .col {
+    flex-basis: 100%;
+    margin-bottom: 30px;
+  }
+}

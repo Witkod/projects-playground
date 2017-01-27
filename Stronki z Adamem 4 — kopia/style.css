@@ -1,0 +1,237 @@
+body{
+	
+	font-family: 'Source Sans Pro', sans-serif;
+	margin: 0;
+}
+
+
+.main1{
+	color: #fff;
+	background-color: #85bde5;
+	padding-left: 12%;
+	padding-right: 3%;
+	padding-top: 4%;
+	padding-bottom: 10%;
+}
+
+.menu{
+	display: flex;
+	margin-bottom: 5%;
+}
+
+.logo{
+	flex-grow: 1;
+}
+
+.navigation{
+	font-size: 12px;
+	letter-spacing: 2px;
+	margin: 0;
+	padding: 0;
+	width: 300px;
+	display: flex;
+	list-style: none;
+	text-transform: uppercase;
+	justify-content: space-around;
+
+
+}
+
+.icons{
+	width: 150px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.content{
+	margin-top: 7%;
+	display: flex;
+}
+
+.column1{
+	flex-grow: 1;
+	flex-basis: 0;
+}
+
+.column2{
+	padding-left: 7%;
+	padding-right: 10%;
+	flex-grow: 2 ;
+	flex-basis: 0;
+}
+
+.title{
+	margin-top: 7%;
+	font-size: 24px;
+	letter-spacing: 2px;
+}
+
+.text{
+	margin-top: 7%;
+	letter-spacing: 2px;
+	line-height: 35px;
+	font-size: 17px;
+	color: rgba(255,255,255,0.7);
+
+}
+
+.buttons{
+	margin-top: 7%;
+	display: flex;
+}
+
+.btn-apple{
+	width: 160px;
+	height: 60px;
+	margin-right: 2%;
+}
+
+.btn-apple img{
+
+	width: 100%;
+	height: 100%;
+}
+
+
+.btn-android{
+	margin-left: 2%;
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 60px;
+	width: 200px;
+	height: 60px;
+	background-color: #70aedc;
+	border-radius: 7px;
+	font-size: 20px;
+	white-space:;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	padding: 0 5px;
+}
+
+.main2{
+background-color: #fff;
+color:#000;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 4%;
+	padding-bottom: 10%;
+}
+
+.title2{
+	text-align: center;
+	letter-spacing: 4px;
+	font-size: 12px;
+	color: rgba(0,0,0,0.6);
+	max-width: 60%;
+	margin: auto;
+	text-transform: uppercase;
+}
+
+.text2{
+	text-align: center;
+	color: rgba(0,0,0,0.4);
+	max-width: 60%;
+	margin: auto;
+	font-size: 18px;
+	line-height: 35px;
+	letter-spacing: 1px;
+}
+
+.content2{
+	display: flex;
+	justify-content: space-around;
+	margin: 5% 0;
+}
+
+.column{
+	margin-left:5%;
+	margin-right: 5%;
+	flex-basis: 0;
+}
+
+.picture{
+
+}
+
+.description{
+	text-align: center;
+	color: rgba(0,0,0,0.5);
+	font-size: 18px;
+	line-height: 35px;
+	letter-spacing: 1px;
+}
+
+.main3{
+	background-color: #e5edf3;
+	color:#000;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 4%;
+	padding-bottom: 10%;
+}
+
+.email{
+	text-align: center;
+	margin: 5%;
+	display: flex;
+	justify-content: center;
+
+}
+
+.email input{
+	width: 395px;
+	height: 35px;
+	border:0;
+	border-radius: 7px;
+	margin-right: 10px;
+	color: rgba(0,0,0,0.5);
+	padding: 5px 5px;
+	padding-left: 20px;
+	font-size: 16px;
+	letter-spacing: 1px;
+}
+
+
+.email button{
+	width: 170px;
+	height: 45px;
+	background-color: #66b1f2;
+	color: #fff;
+	border:0;
+	border-radius: 7px;
+	text-transform: uppercase;
+	font-size: 18px;
+	letter-spacing: 1px;
+	padding: 10px 10px;
+	
+	margin-left: 10px;
+	
+}
+
+.footer{
+	background-color: #acc0d1;
+	color:#fff;
+	padding: 5%;
+	display: flex;
+	font-size: 11px;
+	letter-spacing: 1px;
+	padding-left: 10%;
+	padding-right: 10%;
+
+}
+
+.reserved{
+	display: flex;
+	flex-grow: 1;
+}
+
+.footer-nav{
+	display: flex;
+	flex-grow: 1;
+	text-transform: uppercase;
+	list-style: none;
+	justify-content: space-around;
+}

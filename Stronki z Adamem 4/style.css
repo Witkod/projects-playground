@@ -8,16 +8,11 @@ body{
 .main1{
 	color: #fff;
 	background-color: #85bde5;
-	padding-left: 12%;
-	padding-right: 3%;
-	padding-top: 4%;
-	padding-bottom: 10%;
-}
+	}
 
 .menu{
 	display: flex;
-	margin-bottom: 5%;
-}
+	}
 
 .logo{
 	flex-grow: 1;
@@ -44,7 +39,6 @@ body{
 }
 
 .content{
-	margin-top: 7%;
 	display: flex;
 }
 
@@ -54,20 +48,16 @@ body{
 }
 
 .column2{
-	padding-left: 7%;
-	padding-right: 10%;
 	flex-grow: 2 ;
 	flex-basis: 0;
 }
 
 .title{
-	margin-top: 7%;
 	font-size: 24px;
 	letter-spacing: 2px;
 }
 
 .text{
-	margin-top: 7%;
 	letter-spacing: 2px;
 	line-height: 35px;
 	font-size: 17px;
@@ -76,7 +66,6 @@ body{
 }
 
 .buttons{
-	margin-top: 7%;
 	display: flex;
 }
 
@@ -114,10 +103,6 @@ body{
 .main2{
 background-color: #fff;
 color:#000;
-	padding-left: 5%;
-	padding-right: 5%;
-	padding-top: 4%;
-	padding-bottom: 10%;
 }
 
 .title2{
@@ -143,12 +128,9 @@ color:#000;
 .content2{
 	display: flex;
 	justify-content: space-around;
-	margin: 5% 0;
 }
 
 .column{
-	margin-left:5%;
-	margin-right: 5%;
 	flex-basis: 0;
 }
 
@@ -167,15 +149,10 @@ color:#000;
 .main3{
 	background-color: #e5edf3;
 	color:#000;
-	padding-left: 5%;
-	padding-right: 5%;
-	padding-top: 4%;
-	padding-bottom: 10%;
 }
 
 .email{
 	text-align: center;
-	margin: 5%;
 	display: flex;
 	justify-content: center;
 
@@ -189,7 +166,7 @@ color:#000;
 	margin-right: 10px;
 	color: rgba(0,0,0,0.5);
 	padding: 5px 5px;
-	padding-left: 5px;
+	padding-left: 20px;
 	font-size: 16px;
 	letter-spacing: 1px;
 }
@@ -214,12 +191,9 @@ color:#000;
 .footer{
 	background-color: #acc0d1;
 	color:#fff;
-	padding: 5%;
 	display: flex;
 	font-size: 11px;
 	letter-spacing: 1px;
-	padding-left: 10%;
-	padding-right: 10%;
 
 }
 
@@ -234,4 +208,32 @@ color:#000;
 	text-transform: uppercase;
 	list-style: none;
 	justify-content: space-around;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.col {
+  flex-grow: 1;
+  flex-basis: 0;
+  padding: 0 15px;
+}
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 600px) {
+  .row {
+    flex-wrap: wrap;
+  }
+  
+  .col {
+    flex-basis: 100%;
+    margin-bottom: 30px;
+  }
 }
