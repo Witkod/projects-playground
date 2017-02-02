@@ -5,73 +5,123 @@ body{
 }
 
 .border{
-	border-color: white;
+	/*border-color: white;
 	border-style: solid;
 	border-width: 2px;
-	border-style: solid;
+	border-style: solid;*/
 }
 
 .main{
-	margin-left: 100px;
-	margin-right: 100px;
+	position: relative;
 	justify-content: center;
+	display: flex;
+	margin-right: 10%;
+	margin-left: 10%;
+
 }
 
 .baner{
-/*	background-image: url("baner.jpg");
- 	background-repeat: no-repeat;
-	background-position: center;
-	background-size: contain;
-	background-attachment: fixed;*/
-	/*opacity: 0.5;*/
 	max-width: 1200px;
-	min-height: 600px;
-	position: relative;
+	min-height: 430px;
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
 
 }
 
 
 .baner img{
 	width: 100%;
-	position: relative;
+	/*height: 100%;*/
+	position: absolute;
 	z-index: -1;
+	opacity: 0.7;
 }
 
 .menu{
-	padding-top: 30px;
-	padding-left: 300px;
-	padding-right: 50px;
+
+	position: relative;
+	flex: 1;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.menu img{
+	width: 100px;
 	position: absolute;
-	top: 0px;
+	left: 100px;
+}
+
+.navigationRight{
+
+	font-weight: bold;
+	letter-spacing: 2px;
+	font-size: 16px;
+	color: #f0b642;
+	
+	list-style: none;
+
+	display: flex;
+	flex-wrap: wrap;
+	flex: 2;
+	justify-content: space-around;
+
+	margin: 0px;
+	padding-top: 40px;
+
+	max-width: 700px;
+}
+
+.navigationLeft{
+	flex: 1;
 }
 
 .banerContent{
 	display: flex;
-	position: absolute;
-
+	position: relative;
+	flex: 5;
 }
 
 
 .leftSide {
 	flex-grow: 1;
-	min-width: 200px;
+	padding-left: 50px;
+	padding-top: 50px;
+
 }
+
+.leftSide img{
+	max-width: 250px;
+	width: 100%
+	height: 100%;
+}
+
 .rightSide {
-	padding-top: 30px;
-	min-width: 700px;
-	display: flex;
-	flex-grow: 2;
 	
+	flex-grow: 2;
+
+	letter-spacing: 7px;
+	font-size: 14px;
+
+	
+	text-align: right;
+
+
 }
 
-.navigation{
+.rightSide h1{
+	display: inline-block;
+	max-width: 600px;
+	line-height: 2.5;
+	text-align: center;
+	align-items: right;
+	vertical-align: middle;	
+	padding-right: 60px;
+	padding-top: 50px;
+	color: #f0b642;
 
-	font-weight: bold;
-	letter-spacing: 2px;
-	font-size: 16px;
-	min-width: 600px;
-	justify-content: flex-end space-around;
-	list-style: none;
-	display: flex;
-
+	position: relative;
+	left: 120px;
+	bottom: 20px;
 }
